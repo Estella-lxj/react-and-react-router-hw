@@ -1,0 +1,26 @@
+.input-tag-container {
+  border-bottom: solid 3px tomato;
+  margin: 50px 50px;
+  padding: 10px 10px;
+  display: flex;
+}
+
+.input {
+  border: none;
+  padding: 5px 5px;
+  outline: none;
+}
+
+.delete-btn {
+  color: white;
+  border: none;
+  background: none;
+}
+
+.tag {
+  color: white;
+  background-color: gray;
+  margin: Auto 5px;
+  border-radius: 10px;
+  padding: 5px 5px;
+}

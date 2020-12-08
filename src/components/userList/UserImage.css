@@ -1,0 +1,10 @@
+.user-image {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.user-image > div > img {
+  height: 50px;
+  width: 50px;
+}

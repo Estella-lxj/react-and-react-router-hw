@@ -1,0 +1,34 @@
+.modal-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(200, 200, 200, 0.7);
+}
+
+.modal {
+  border: solid 3px tomato;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  color: black;
+}

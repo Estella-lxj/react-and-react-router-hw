@@ -1,0 +1,26 @@
+.web-container {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.web-container > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.web-header {
+  border: 5px solid tomato;
+  height: 100px;
+}
+
+.web-content {
+  height: 400px;
+  border-left: 5px solid tomato;
+  border-right: 5px solid tomato;
+}
+
+.web-footer {
+  border: 5px solid tomato;
+  height: 80px;
+}

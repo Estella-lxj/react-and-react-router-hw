@@ -1,0 +1,9 @@
+.list-details-container {
+  display: flex;
+}
+
+.details {
+  height: 200px;
+  width: 200px;
+  border: solid 3px tomato;
+}

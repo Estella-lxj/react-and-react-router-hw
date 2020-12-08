@@ -1,0 +1,8 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item {
+  display: inline-block;
+}
