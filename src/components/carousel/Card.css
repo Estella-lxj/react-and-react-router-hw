@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}

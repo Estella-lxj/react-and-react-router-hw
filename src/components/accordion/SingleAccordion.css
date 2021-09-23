@@ -1,0 +1,20 @@
+.container {
+  width: 500px;
+  position: relative;
+}
+
+.title {
+  height: 20px;
+  background-color: tomato;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.title span {
+  position: absolute;
+  right: 10px;
+}
+
+.container p {
+  text-align: left;
+}
