@@ -5,7 +5,6 @@ import WebLayout from './components/layout/WebLayout';
 import MobileLayout from './components/layout/MobileLayout';
 import Counter from './components/counter/Counter'
 import LoginForm from './components/login/LoginForm';
-import UserList from './components/userList/UserList';
 import OnlineQuiz from './components/quiz/OnlineQuiz';
 import ModalBtn from './components/modal/ModalBtn';
 import InputTag from './components/inputTag/inputTag';
@@ -15,11 +14,13 @@ import PollWidget from './components/pollWidget/PollWidget';
 import StarRating from './components/starRating/starRating';
 import Accordion from './components/accordion/Accordion';
 import Carousel from './components/carousel/Carousel';
+import fetchData from './components/fetchData/FetchData';
+import FetchData from './components/fetchData/FetchData';
 
 function App() {
   return (
     <div className="App">
-      <h1>Modal pop up</h1>
+      {/* <h1>Modal pop up</h1>
       <ModalBtn />
       <h1>Table</h1>
       <Table />
@@ -47,7 +48,9 @@ function App() {
       <Accordion />
       <h1>Carousel</h1>
       <Carousel />
-      <h1>NavBar</h1>
+      <h1>NavBar</h1> */}
+      <h1>Fetch Data</h1>
+      <FetchData />
 
       <h1>Infinite scroll</h1>
       <h1>Typeahead / autocomplete using trie</h1>
@@ -68,8 +71,6 @@ function App() {
       <h1>Flatten nested Javascript Array without using Array.prototype.flat()</h1>
       <h1>Implement Sort() function.</h1>
 
-      <h1>User list</h1>
-      <UserList />
 
     </div>
   );
